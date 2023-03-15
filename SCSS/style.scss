@@ -1,0 +1,14 @@
+nav {
+  background: lightskyblue;
+  padding: 10px;
+  height: 50px;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    li {
+      color: white;
+      margin-right: 10px;
+    }
+  }
+}
