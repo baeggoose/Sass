@@ -19,3 +19,12 @@ nav {
 }
 
 // ex2
+.background-img {
+  width: 100%;
+  height: auto;
+  background: {
+    image: url("./sample.jpg");
+    position: center center;
+    repeat: no-repeat;
+  }
+}
