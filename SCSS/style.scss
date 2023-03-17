@@ -39,3 +39,17 @@ nav {
     background-color: blue;
   }
 }
+
+// ex 4
+.one {
+  color: red;
+  .two {
+    color: green;
+    .three {
+      color: blue;
+      @at-root p {
+        color: lightskyblue;
+      }
+    }
+  }
+}

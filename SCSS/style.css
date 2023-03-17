@@ -34,4 +34,17 @@ nav ul li {
 }
 .box:hover {
   background-color: blue;
+}
+
+.one {
+  color: red;
+}
+.one .two {
+  color: green;
+}
+.one .two .three {
+  color: blue;
+}
+p {
+  color: lightskyblue;
 }/*# sourceMappingURL=style.css.map */
