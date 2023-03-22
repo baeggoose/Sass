@@ -1,5 +1,6 @@
 $bgColor: red;
-
+$font-h1: 28px;
 h1 {
   color: $bgColor;
+  font-size: $font-h1;
 }
