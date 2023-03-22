@@ -1,11 +1,17 @@
 $bgColor: red;
 $font-h1: 28px;
 $valid-sides: left, center, right;
+$font-sizes: (
+  "myh1": 45px,
+  "myh2": 19px,
+  "myp": 16px,
+);
 
 h1 {
   color: $bgColor;
-  font-size: $font-h1;
+  // font-size: $font-h1;
+  font-size: map-get($font-sizes, "myh1");
 }
 p {
-  text-align: nth($valid-sides, 2);
+  text-align: nth($valid-sides, -2);
 }
