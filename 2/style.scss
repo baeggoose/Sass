@@ -11,6 +11,10 @@ h1 {
   color: $bgColor;
   // font-size: $font-h1;
   font-size: map-get($font-sizes, "myh1");
+  $spanColor: blue; //지역변수
+  span {
+    color: $spanColor;
+  }
 }
 p {
   text-align: nth($valid-sides, -2);

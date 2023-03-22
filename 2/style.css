@@ -2,6 +2,9 @@ h1 {
   color: red;
   font-size: 45px;
 }
+h1 span {
+  color: blue;
+}
 
 p {
   text-align: center;
