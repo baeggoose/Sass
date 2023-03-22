@@ -10,7 +10,7 @@ $font-sizes: (
 h1 {
   color: $bgColor;
   // font-size: $font-h1;
-  font-size: map-get($font-sizes, "myh1");
+  font-size: map-get($font-sizes, "myp") * 2;
   $spanColor: blue; //지역변수
   span {
     color: $spanColor;
