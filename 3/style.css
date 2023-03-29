@@ -1,0 +1,15 @@
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: rgb(58, 235, 255);
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: rgb(255, 108, 108);
+}/*# sourceMappingURL=style.css.map */

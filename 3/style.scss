@@ -1,0 +1,18 @@
+// scss를 사용
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.one {
+  @include flexCenter; // 정의한 flexCenter mixin을 사용하여 코드 한줄이면 끝!
+  background: rgb(58, 235, 255);
+}
+
+.two {
+  @include flexCenter;
+  background: rgb(255, 108, 108);
+}
