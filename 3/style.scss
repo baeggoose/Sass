@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-@mixin flexCenterTwo($size) {
+@mixin flexCenterTwo($size: 30px) {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,4 +27,9 @@
 .two {
   @include flexCenterTwo(20px);
   background: rgb(255, 108, 108);
+}
+
+.three {
+  @include flexCenterTwo;
+  background: rgb(255, 183, 183);
 }

@@ -18,4 +18,15 @@
 }
 .two li {
   margin-right: 20px;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: rgb(255, 183, 183);
+}
+.three li {
+  margin-right: 30px;
 }/*# sourceMappingURL=style.css.map */
