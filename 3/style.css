@@ -25,6 +25,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  color: aliceblue;
   background: rgb(255, 183, 183);
 }
 .three li {

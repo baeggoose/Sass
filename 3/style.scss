@@ -15,6 +15,7 @@
   li {
     margin-right: $size;
   }
+  @content;
 }
 
 .one {
@@ -30,6 +31,8 @@
 }
 
 .three {
-  @include flexCenterTwo;
+  @include flexCenterTwo {
+    color: aliceblue;
+  }
   background: rgb(255, 183, 183);
 }
