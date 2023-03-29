@@ -7,12 +7,24 @@
   list-style: none;
 }
 
+@mixin flexCenterTwo($size) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  li {
+    margin-right: $size;
+  }
+}
+
 .one {
-  @include flexCenter; // 정의한 flexCenter mixin을 사용하여 코드 한줄이면 끝!
+  @include flexCenterTwo(
+    10px
+  ); // 정의한 flexCenter mixin을 사용하여 코드 한줄이면 끝!
   background: rgb(58, 235, 255);
 }
 
 .two {
-  @include flexCenter;
+  @include flexCenterTwo(20px);
   background: rgb(255, 108, 108);
 }

@@ -5,6 +5,9 @@
   list-style: none;
   background: rgb(58, 235, 255);
 }
+.one li {
+  margin-right: 10px;
+}
 
 .two {
   display: flex;
@@ -12,4 +15,7 @@
   align-items: center;
   list-style: none;
   background: rgb(255, 108, 108);
+}
+.two li {
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
