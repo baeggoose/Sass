@@ -16,4 +16,13 @@
 body.dark .banner {
   background-color: #6b717f;
   color: #d2e1dd;
+}
+
+.next {
+  height: 0;
+  width: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2.5px;
+  border-left-color: black;
 }/*# sourceMappingURL=style.css.map */
