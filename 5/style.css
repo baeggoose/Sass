@@ -49,4 +49,9 @@ body.dark .banner {
 
 .sup {
   font-size: 12.3609394314px;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 64px;
 }/*# sourceMappingURL=style.css.map */
