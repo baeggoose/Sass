@@ -60,3 +60,9 @@ $dark-text: #d2e1dd;
 .next {
   @include triangle(5px, black, right);
 }
+
+@for $i from 1 through 5 {
+  .photo-box:nth-child(#{$i}) {
+    background-image: url("../assets/phoster#{$i}.png");
+  }
+}
