@@ -1,0 +1,12 @@
+.card {
+  width: 100px;
+  height: 200px;
+
+  @media screen and (min-width: 390px) {
+    background-color: red;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-color: green;
+  }
+}
