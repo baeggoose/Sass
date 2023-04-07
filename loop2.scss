@@ -1,0 +1,8 @@
+@for $seung from 1 through 10 {
+  .content-#{$seung} {
+    font-size: #{$seung * 10}px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+}
