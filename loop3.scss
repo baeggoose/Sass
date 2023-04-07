@@ -1,0 +1,9 @@
+$seung: 5;
+@while $seung > 1 {
+  $seung: $seung - 1;
+  .content- #{$seung} {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+}
